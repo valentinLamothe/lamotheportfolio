@@ -18,7 +18,9 @@ const Intro = () => {
               </div>
             </div>
             <p className="i-desc">
-             Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.
+            My name is Valentín Lamothe, Web and Mobile Full Stack Developer MERN.
+            <br></br>
+            I am a persevering, hardworking person and always yearning to acquire knowledge and experiences that help me improve myself.
             </p>
           </div>
           <svg
