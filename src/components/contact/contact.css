@@ -1,12 +1,15 @@
 .c {
     height: 100vh;
-    position: relative;
 }
 
-.c-bg {
+
+.c-containForm {
     background-color: #560bad;
-    clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
-    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5%;
+    border-radius: 1rem;
 }
 
 .c-wrapper {

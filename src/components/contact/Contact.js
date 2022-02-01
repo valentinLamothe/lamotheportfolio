@@ -37,6 +37,7 @@ const Contact = () => {
         <div className='c'>
             <div className='c-bg'>
             <div className='c-wrapper'>
+              <div className='c-containForm'>
                 <div className='c-left'>
                     <h1 className='c-title'>Contact</h1>
                 </div>
@@ -50,6 +51,7 @@ const Contact = () => {
                         { done && <p>Thanks for contacting</p> }
                     </form>
                 </div>
+            </div>
             </div>
             </div>
         </div>

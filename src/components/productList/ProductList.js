@@ -9,12 +9,12 @@ const ProductList = () => {
             <div className='pl-texts'>
                 <h1 className='pl-title'>
                 <Typewriter
-                    loop
-                    cursor
-                    cursorStyle="_"
-                    typeSpeed={70}
-                    deleteSpeed={50}
-                    delaySpeed={1000}
+                   loop={false}
+                   cursor
+                   cursorStyle='_'
+                   typeSpeed={70}
+                   deleteSpeed={50}
+                   delaySpeed={1000}
                     words={['Create & inspire. Its Valentin']}
                 />
                 </h1>

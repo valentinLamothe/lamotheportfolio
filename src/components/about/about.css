@@ -46,7 +46,14 @@
 
 .a-title {
     font-weight: 400;
+    margin-bottom: 3%;
+    background-color: #560bad;
+    width: 65%;
+    color: white;
+    border-radius: .2rem;
+    padding-left: 2%;
 }
+
 
 .a-sub {
     margin: 20px 0;
@@ -54,6 +61,8 @@
 
 .a-desc {
     font-weight: 300;
+    font-size: 1.1rem;
+    width: 80%;
 }
 
 .a-award {

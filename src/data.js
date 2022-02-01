@@ -1,6 +1,6 @@
 import Video from './img/video.webm';
 import VideoPetshop from './img/videoPetshop.webm'
-
+import VideoJump from './img/videoJump.webm'
 
 export const products = [
    {
@@ -45,7 +45,7 @@ export const products = [
     },
     {
       id: 6,
-      video: '',
+      video: VideoJump,
       name: 'Jump',
       description: 'Lorem Ipsum es simplemente el texto de  relleno de las imprentas y archivos de texto',
       github: "https://github.com/valentinLamothe/grupo_4_jump",
