@@ -22,7 +22,7 @@ const ProductList = () => {
                  Lorem Ipsum es simplemente el texto de  relleno de las imprentas y archivos de texto.
                  </p>
             </div>
-            <div className='pl-list'>
+            <div>
                 {products.map(item => (
                  <Product key={item.id} video={item.video} name={item.name} description={item.description} github={item.github} urlHeroku={item.urlHeroku} />
                  ))}
