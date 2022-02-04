@@ -13,11 +13,14 @@
 .pl-title {
     font-size: 50px;
     font-weight: 600;
+    margin-bottom: 5%;
+    margin-top: 13rem;
 }
 
 .pl-desc {
     margin: 20px 0;
     font-size: 1.2rem;
+    margin-bottom: 6%;
 }
 
 .pl-list {

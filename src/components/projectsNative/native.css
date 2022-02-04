@@ -1,0 +1,40 @@
+.n-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.n-title {
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 5%;
+}
+
+.n-video {
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.n-info-container {
+    display: flex;
+    margin: auto;
+    width: 37%;
+    margin-bottom: 5%;
+}
+
+.n-p-contain {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+.n-name {
+    margin-bottom: 2%;
+    font-weight: 600;
+    font-size: 1.2rem;
+}

@@ -17,7 +17,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 25vh;
 }
 
 .c-left {
@@ -100,7 +99,6 @@ textarea {
 
     .c-bg {
         background-color: #560bad;
-        clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 17% 51%, 0% 0%);
         height: 100vh;
     }
 
@@ -128,10 +126,7 @@ textarea {
     }
 
     input {
-        width: 35%;
-        height: 40px;
         margin: 10px;
-        margin-left: 0;
     }
 
     button {

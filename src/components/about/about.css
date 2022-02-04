@@ -2,6 +2,7 @@
     height: 100vh;
     display: flex;
     align-items: center;
+    margin-bottom: 10rem;
 }
 
 .a-left {
@@ -103,5 +104,8 @@
 
     .a-right {
         padding: 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }

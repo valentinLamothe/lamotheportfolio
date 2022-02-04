@@ -32,15 +32,15 @@ const Product = ({ video, link, description, name, urlHeroku, github }) => {
                 <div className='p-content-box'>
                     <p className='p-name'>{name}</p>
                     <p className='p-desc'>{description}</p>
-                    <div style={{display: 'flex', justifyContent: 'center', gap: '5%', marginTop: '8%'}}>
-                <a target='_blank' href={urlHeroku}>
-                    <span>See project</span>
-                <div class="wave"></div>
-                </a>
-                <a target='_blank' href={github}>
-                    <span>Github</span>
-                <div class="wave"></div>
-                </a>
+                <div style={{display: 'flex', justifyContent: 'center', gap: '5%', marginTop: '8%'}}>
+                    <a target='_blank' href={urlHeroku}>
+                        <span>See project</span>
+                    <div class="wave"></div>
+                    </a>
+                    <a target='_blank' href={github}>
+                        <span>Github</span>
+                    <div class="wave"></div>
+                    </a>
                 </div>
                 </div>
             </div>

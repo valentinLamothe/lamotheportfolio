@@ -15,17 +15,14 @@ const ProductList = () => {
                    typeSpeed={70}
                    deleteSpeed={50}
                    delaySpeed={1000}
-                    words={['Create & inspire. Its Valentin']}
+                    words={['WEB PROJECTS']}
                 />
                 </h1>
-                 <p className='pl-desc'>
-                 Lorem Ipsum es simplemente el texto de  relleno de las imprentas y archivos de texto.
-                 </p>
-            </div>
             <div>
                 {products.map(item => (
                  <Product key={item.id} video={item.video} name={item.name} description={item.description} github={item.github} urlHeroku={item.urlHeroku} />
                  ))}
+            </div>
             </div>
         </div>
     )
